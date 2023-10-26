@@ -1,6 +1,8 @@
 # APUNTES DE LA SEGUNDA PARCIAL
 ## Programación Funcional 
-<p><em><strong>Stringdocs:</strong></em> </p>    
+<p><em><strong>Stringdocs:</strong></em> Las docstrings son las cadenas que aparecen justo después de la definición de una 
+función, método, clase o módulo. Estas son usadas para documentar, como ya se dijo antes, un módulo, clase, 
+función o método en Python. Cabe recalcar que se usan para que otros programadores entiendan fácil y rápidamente lo que hace esa parte del programa.</p>    
 <p><em><strong>REPL:</strong></em> Repeat Evual Print Loop. </p>    
 <p><em><strong>Lambda:</strong></em> </p>  
 <p><em><strong>Args y Kwargs:</strong></em> Pueden ser puras (tiene argumentos, entre otras cosas) e impuras (no tiene argumentos, entre otras cosas).</p>  
