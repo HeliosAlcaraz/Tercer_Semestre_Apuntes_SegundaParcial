@@ -135,7 +135,7 @@ print("Despues de llamar a mi_funcion")</code></p>
 <p>Dentro de mi_funcion</p>
 <p>Despues de llamar a mi_funcion</p>
 <hr>
-<p><strong>Parámetros y argumentos.</strong></p>
+<p><strong>->Parámetros y argumentos.</strong></p>
 
 * Sintaxis de una función:
 
@@ -160,3 +160,17 @@ productos("manzanas", 5, 7.5)</code></p>
 
 <p><em><strong>Run: </strong></em></p>
 <p> 5 manzanas cuestan 7.5 pesos</p>
+* Los parámetros (producto, cantidad y precio) se comportan como variables definidas localmente en la función.
+* Cuando se llama a la función, los argumentos que se pasan ("manzanas", 5, 7.5) están vinculados a los parámetros en orden
+* Como si fuera una asignación de variables:
+
+| Parámetro | Argumento |
+|-----------|-----------|
+|producto   |manzanas   |
+| cantidad  | 5         |
+| precio    | 7.5       |
+
+* Los argumentos posicionales son la forma más sencilla de pasar datos a una función
+* Ofrecen la menor flexibilidad.
+* El orden de los argumentos en la llamada debe coincidir con el orden de los parámetros en la definición. 
+* Por supuesto, no hay nada que nos impida cambiar el orden especificado en la definición de la función.
