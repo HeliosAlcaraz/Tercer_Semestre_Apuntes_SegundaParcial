@@ -56,3 +56,19 @@ imprimir_datos("Un nombre", "argumento 1", "argumento 2", clave_1 = "valor 1", c
   * Procedimientos
   * Métodos
   * Subprogramas
+
+#### 2.1.1.2 Definición y ventajas de su uso
+
+* Una función es una relación o mapeo entre una o más entradas y un conjunto de salidas.
+* En matemáticas, una función normalmente se representa como $$ y = f(x)$$
+* *f* es una función que opera sobre la entrada *x*
+* La salida de la función es *y*
+
+<hr>
+
+* En programación, una <em>función</em> es un bloque de código independiente para una tarea específica o un grupo de tareas relacionadas.
+* Ejemplos:
+  * id()
+  * len()
+  * max()
+  * min()
