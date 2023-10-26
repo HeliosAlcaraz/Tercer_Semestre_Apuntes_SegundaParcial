@@ -13,13 +13,24 @@ como el nombre de una tupla en la que se almacenarán todos los argumentos que s
         print(cosa)
 imprime_lista("Piezas","tornillo","cable","clavo","tuerca")</code></em></p>
 <p><em><strong>Kwargs:</strong></em> Es la abreviación en inglés de "Keyword Arguments" y se trata de argumentos que se pasan 
-por pares de <em>clave-valor</em> y se reciben como un diccionario.</p> 
+por pares de <em>clave-valor</em> y se reciben como un diccionario. En lugar de un asterisco (como en los args), se usan dos.</p> 
 <p><em><code>imprime_lista("Piezas","tornillo","cable","clavo","tuerca")
 
 def imprime_datos(nombre, **datos):
     print("Datos de " + nombre)
     for clave in datos:
         print(clave + ": " + datos[clave])
-imprime_datos("Pedro", edad = "19", estado = "feliz", alto = "sí")</code></em></p>
+imprime_datos("Pedro", edad = "19", estado = "feliz", alto = "sí")</code></em></p>  
+<p><em><strong>Nota-> Si se usan argumetos fijos, *args y **kwargs, se deben poner en orden. Primero los fijos, luegos 
+los *args y, al final, los **kwargs</strong></em></p>  
+<p><em><code>def imprimir_datos(nombre, *lista, **diccionario):
+    print("Nombre: ", nombre)
+    print("Lista:")
+    for elemento in lista:
+        print(" - ", elemento)
+    print("Diccionario:")
+    for clave, valor in diccionario.items():
+        print(" - ", clave, ": ", valor)    
+imprimir_datos("Un nombre", "argumento 1", "argumento 2", clave_1 = "valor 1", clave_2 = "valor 2")</code></em></p>
 <hr>
 <hr>
