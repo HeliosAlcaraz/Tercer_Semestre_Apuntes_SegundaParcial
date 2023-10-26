@@ -134,3 +134,26 @@ print("Despues de llamar a mi_funcion")</code></p>
 <p>Antes de llamar a mi_funcion</p>
 <p>Dentro de mi_funcion</p>
 <p>Despues de llamar a mi_funcion</p>
+<hr>
+<p><strong>Parámetros y argumentos.</strong></p>
+
+* Sintaxis de una función:
+
+``` python
+def <function_name>([<parameters>]):
+    <statement(s)>
+```
+
+* Llamada de una función:
+
+```python
+<function_name>([<arguments>])
+```
+
+<p><strong>Argumentos posicionales (obligatorios)</strong></p>
+* La forma más sencilla de pasar argumentos a una función de Python es con argumentos posicionales u obligatorios.
+* En la definición de la función se especifica una lista de parámetros separados por comas dentro del paréntesis:
+<p><code>def productos(producto, cantidad, precio):
+    print(f" {cantidad} {producto} cuestan {precio} pesos")
+
+productos("manzanas", 5, 7.5)</code></p>
