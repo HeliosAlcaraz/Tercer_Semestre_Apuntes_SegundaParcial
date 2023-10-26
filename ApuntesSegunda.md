@@ -66,7 +66,7 @@ Ejemplos:
 
 <hr>
 
-<p><strong>Definición y ventajas de su uso</strong></p>
+<p><strong>->Definición y ventajas de su uso</strong></p>
 
 * Una función es una relación o mapeo entre una o más entradas y un conjunto de salidas.
 * En matemáticas, una función normalmente se representa como $$ y = f(x)$$
@@ -75,7 +75,7 @@ Ejemplos:
 
 <hr>
  
-<p><strong>Declaración y llamada de funciones.</strong></p>
+<p><strong>->Declaración y llamada de funciones.</strong></p>
 
 * Una función se declaran con la palabra reservada *def*
 * Una función puede recibir parámetros
@@ -130,7 +130,7 @@ print("Antes de llamar a mi_funcion")
 mi_funcion()
 print("Despues de llamar a mi_funcion")</code></p>
 
-<p><strong>Run: </strong></p>
+<p><em><strong>Run: </strong></em></p>
 <p>Antes de llamar a mi_funcion</p>
 <p>Dentro de mi_funcion</p>
 <p>Despues de llamar a mi_funcion</p>
@@ -150,10 +150,13 @@ def <function_name>([<parameters>]):
 <function_name>([<arguments>])
 ```
 
-<p><strong>Argumentos posicionales (obligatorios)</strong></p>
+<p><strong>->Argumentos posicionales (obligatorios)</strong></p>
 * La forma más sencilla de pasar argumentos a una función de Python es con argumentos posicionales u obligatorios.
 * En la definición de la función se especifica una lista de parámetros separados por comas dentro del paréntesis:
 <p><code>def productos(producto, cantidad, precio):
     print(f" {cantidad} {producto} cuestan {precio} pesos")
 
 productos("manzanas", 5, 7.5)</code></p>
+
+<p><em><strong>Run: </strong></em></p>
+<p> 5 manzanas cuestan 7.5 pesos</p>
