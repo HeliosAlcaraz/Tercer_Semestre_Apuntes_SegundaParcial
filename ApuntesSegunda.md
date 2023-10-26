@@ -206,8 +206,6 @@ productos("manzanas", 5, 7.5)</code></p>
 
 <p><code>def productos(producto="productos", cantidad="0", precio=0.0):
     print(f" {cantidad} {producto} cuestan {precio} pesos")
-
-# Invocación sin argumentos
 productos()</code></p>
 
 <p><em><strong>Run: </strong></em></p>
