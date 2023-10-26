@@ -7,7 +7,7 @@ función o método en Python. Cabe recalcar que se usan para que otros programad
     ''' Toma un número y regresa el cubo de dicho número'''
     return num**3
 print(cubo.__doc__)</code></em>
-<p>El docstring es lo que está entre las comillas triples y con .__doc__ se llama a dicha documentación</p>
+<p>El docstring es lo que está entre las comillas triples y con .__doc__ se llama a dicha documentación.</p>
 <p><em><strong>REPL:</strong></em> Repeat Evual Print Loop. </p>    
 <p><em><strong>Lambda:</strong></em> Las funciones lambda también llamadas <em>funciones anónimas</em> son funciones simpres 
 de una sola expresión que se pueden utilizar in situ. Cabe destacar que estas funciones no usan <em>return</em> y se limitan 
@@ -34,7 +34,7 @@ def imprime_datos(nombre, **datos):
         print(clave + ": " + datos[clave])
 imprime_datos("Pedro", edad = "19", estado = "feliz", alto = "sí")</code></em></p>  
 <p><em><strong>Nota-> Si se usan argumetos fijos, *args y **kwargs, se deben poner en orden. Primero los fijos, luegos 
-los *args y, al final, los **kwargs</strong></em></p>  
+los *args y, al final, los **kwargs.</strong></em></p>  
 <p><em><code>def imprimir_datos(nombre, *lista, **diccionario):
     print("Nombre: ", nombre)
     print("Lista:")
