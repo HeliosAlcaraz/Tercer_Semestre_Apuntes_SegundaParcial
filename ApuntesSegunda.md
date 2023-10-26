@@ -56,8 +56,17 @@ imprimir_datos("Un nombre", "argumento 1", "argumento 2", clave_1 = "valor 1", c
   * Procedimientos
   * Métodos
   * Subprogramas
+ 
+<p>En programación, una <em>función</em> es un bloque de código independiente para una tarea específica o un grupo de tareas relacionadas.</p>
+Ejemplos:
+  * id()
+  * len()
+  * max()
+  * min()
 
-#### 2.1.1.2 Definición y ventajas de su uso
+<hr>
+
+<p><strong>Definición y ventajas de su uso</strong></p>
 
 * Una función es una relación o mapeo entre una o más entradas y un conjunto de salidas.
 * En matemáticas, una función normalmente se representa como $$ y = f(x)$$
@@ -65,13 +74,38 @@ imprimir_datos("Un nombre", "argumento 1", "argumento 2", clave_1 = "valor 1", c
 * La salida de la función es *y*
 
 <hr>
+ 
+<p><strong>Declaración y llamada de funciones.</strong></p>
 
-* En programación, una <em>función</em> es un bloque de código independiente para una tarea específica o un grupo de tareas relacionadas.
-* Ejemplos:
-  * id()
-  * len()
-  * max()
-  * min()
+* Una función se declaran con la palabra reservada *def*
+* Una función puede recibir parámetros
+* Una función puede retornar un valor, varios o ninguno
+* Cuando no retorna nada de manera explícita, siempre retorna *None*
+* Una función puede ser recursiva
+* Sintaxis general de una función:
+
+``` python
+def <function_name>([<parameters>]):
+    <statement(s)>
+```
+
+Donde:
+| Elemento        | Significado                                                                      |
+|-----------------|----------------------------------------------------------------------------------|
+|def              | Palabra clave para indicar que se está **def**iniendo una función                |
+|<function_name>  | Un identificador de Python válido que nombra a la función                        |
+|\<parameters>    | Lista opcional separada por comas de parámetros que se pueden pasar a la función |
+|:                | Símbolo que indica el final del encabezado o firma de la función de Python       |
+|<statement(s)>   | Bloque de sentencias válidas de Python                                           |
+
+* Para llamar a la función:
+``` python
+<function_name>([<arguments>])
+```
+* <arguments> son los valores pasados a la función.
+* Corresponden a los <parameters> en la definición de la función.
+* Se puede definir una función que no acepte ningún argumento, pero los paréntesis aún son necesarios.
+* Tanto una definición de función como una llamada a función siempre deben incluir paréntesis, aunque estén vacíos.
 <p>Ejemplo de funciones en un código:</p>  
 <p><code>def a():
     x = "Hola"
