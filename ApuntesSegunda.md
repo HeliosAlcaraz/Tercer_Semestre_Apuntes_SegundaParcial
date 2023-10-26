@@ -12,5 +12,14 @@ como el nombre de una tupla en la que se almacenarán todos los argumentos que s
     for cosa in cosas:
         print(cosa)
 imprime_lista("Piezas","tornillo","cable","clavo","tuerca")</code></em></p>
+<p><em><strong>Kwargs:</strong></em> Es la abreviación en inglés de "Keyword Arguments" y se trata de argumentos que se pasan 
+por pares de <em>clave-valor</em> y se reciben como un diccionario.</p> 
+<p><em><code>imprime_lista("Piezas","tornillo","cable","clavo","tuerca")
+
+def imprime_datos(nombre, **datos):
+    print("Datos de " + nombre)
+    for clave in datos:
+        print(clave + ": " + datos[clave])
+imprime_datos("Pedro", edad = "19", estado = "feliz", alto = "sí")</code></em></p>
 <hr>
 <hr>
