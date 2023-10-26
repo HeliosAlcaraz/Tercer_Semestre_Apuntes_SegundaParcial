@@ -123,14 +123,14 @@ b()</code></p>
 
 <p><strong>2</strong></p>
 <p><code>def mi_funcion():
-    msg = "Dentro de mi_función"
+    msg = "Dentro de mi_funcion"
     print(msg)
 
-print("Antes de llamar a mi_función")
+print("Antes de llamar a mi_funcion")
 mi_funcion()
-print("Despues de llamar a mi_función")</code></p>
+print("Despues de llamar a mi_funcion")</code></p>
 
 <p><strong>Run: </strong></p>
-<p>Antes de llamar a mi_función</p>
-<p>Dentro de mi_función</p>
-<p>Despues de llamar a mi_función</p>
+<p>Antes de llamar a mi_funcion</p>
+<p>Dentro de mi_funcion</p>
+<p>Despues de llamar a mi_funcion</p>
