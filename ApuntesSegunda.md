@@ -187,3 +187,28 @@ productos("manzanas", 5, 7.5)</code></p>
 <p><code>productos(producto="manzanas", cantidad=5, precio=7.5)</code></p>
 
 <p>...y entonces <em><strong>sí</em></strong> se puede cambiar el orden de los parámetros sin que el resultado se altere de manera incorrecta o no deseada.</p>
+
+* Si una palabra clave no corresponde marca error.
+* ...de nueva cuenta todos los parámetros son necesarios.
+* Los argumentos de palabras clave permiten flexibilidad en el orden en que se especifican los argumentos de una función.
+* El número de argumentos sigue siendo estricto: deben estar todos.
+* Se puede llamar a una función utilizando argumentos posicionales y de palabras clave.
+* Todos los argumentos posicionales deben ir primero.
+
+<hr>
+
+<p><strong>->Parámetros por defecto (default).</strong></p>
+
+* Se especifica en una definición de función de Python de la forma <nombre>=\<valor>
+* \<valor> se convierte en un valor predeterminado para ese parámetro.
+* Se denominan parámetros predeterminados u opcionales. 
+* Ejemplo:
+
+<p><code>def productos(producto="productos", cantidad="0", precio=0.0):
+    print(f" {cantidad} {producto} cuestan {precio} pesos")
+
+# Invocación sin argumentos
+productos()</code></p>
+
+<p><em><strong>Run: </strong></em></p>
+<p> 0 productos cuestan 0.0 pesos</p>
