@@ -102,7 +102,7 @@ Donde:
 ``` python
 <function_name>([<arguments>])
 ```
-* <arguments> son los valores pasados a la función.
+* <em>arguments</em> son los valores pasados a la función.
 * Corresponden a los <parameters> en la definición de la función.
 * Se puede definir una función que no acepte ningún argumento, pero los paréntesis aún son necesarios.
 * Tanto una definición de función como una llamada a función siempre deben incluir paréntesis, aunque estén vacíos.
