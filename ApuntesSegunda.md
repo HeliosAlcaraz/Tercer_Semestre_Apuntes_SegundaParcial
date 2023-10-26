@@ -7,6 +7,7 @@ función o método en Python. Cabe recalcar que se usan para que otros programad
     ''' Toma un número y regresa el cubo de dicho número'''
     return num**3
 print(cubo.__doc__)</code></em>
+<p>El docstring es lo que está entre las comillas triples y con .__doc__ se llama a dicha documentación</p>
 <p><em><strong>REPL:</strong></em> Repeat Evual Print Loop. </p>    
 <p><em><strong>Lambda:</strong></em> </p>  
 <p><em><strong>Args y Kwargs:</strong></em> Pueden ser puras (tiene argumentos, entre otras cosas) e impuras (no tiene argumentos, entre otras cosas).</p>  
