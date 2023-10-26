@@ -46,8 +46,8 @@ los *args y, al final, los **kwargs.</strong></em></p>
 imprimir_datos("Un nombre", "argumento 1", "argumento 2", clave_1 = "valor 1", clave_2 = "valor 2")</code></em></p>
 <hr>
 <hr>
-## Funciones
-### Introducción a las funciones
+<p><strong>Funciones</strong></p>
+<p><strong>### Introducción a las funciones</strong></p>
 
 * Prácticamente todos los lenguajes de programación actuales permiten una forma de crear funciones definidas por el usuario.
 * Cabe resaltar que no siempre se denominan funciones.
