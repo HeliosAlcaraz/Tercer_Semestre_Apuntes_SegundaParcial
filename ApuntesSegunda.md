@@ -11,7 +11,6 @@ como el nombre de una tupla en la que se almacenarán todos los argumentos que s
     print("Lista de " + nombre_lista)
     for cosa in cosas:
         print(cosa)
-
 imprime_lista("Piezas","tornillo","cable","clavo","tuerca")</code></em></p>
 <hr>
 <hr>
