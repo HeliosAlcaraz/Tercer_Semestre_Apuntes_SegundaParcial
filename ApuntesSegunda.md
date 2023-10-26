@@ -174,3 +174,11 @@ productos("manzanas", 5, 7.5)</code></p>
 * Ofrecen la menor flexibilidad.
 * El orden de los argumentos en la llamada debe coincidir con el orden de los parámetros en la definición. 
 * Por supuesto, no hay nada que nos impida cambiar el orden especificado en la definición de la función.
+
+<hr>
+
+<p><strong>->Argumentos nombrados o de palabra clave (Keyword arguments)</strong></p>
+
+* Cuando se invoca a una función se pueden especificar los argumentos en el formato <palabra_clave>=\<valor>.
+* Cada <palabra_clave> debe coincidir con un parámetro en la definición de la función de Python. 
+* Por ejemplo, la función productos() se puede invocar con argumentos de palabras clave de la siguiente manera:
