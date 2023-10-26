@@ -183,3 +183,7 @@ productos("manzanas", 5, 7.5)</code></p>
 * Cuando se invoca a una función se pueden especificar los argumentos en el formato <palabra_clave>=\<valor>.
 * Cada <palabra_clave> debe coincidir con un parámetro en la definición de la función de Python. 
 * Por ejemplo, la función productos() se puede invocar con argumentos de palabras clave de la siguiente manera:
+
+<p><code>productos(producto="manzanas", cantidad=5, precio=7.5)</code></p>
+
+<p>...y entonces <em><strong>sí</em></strong> se puede cambiar el orden de los parámetros sin que el resultado se altere de manera incorrecta o no deseada.</p>
