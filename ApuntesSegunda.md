@@ -107,6 +107,7 @@ Donde:
 * Se puede definir una función que no acepte ningún argumento, pero los paréntesis aún son necesarios.
 * Tanto una definición de función como una llamada a función siempre deben incluir paréntesis, aunque estén vacíos.
 <p>Ejemplo de funciones en un código:</p>  
+<p><strong>1</strong></p>
 <p><code>def a():
     x = "Hola"
     print(x)
@@ -119,3 +120,12 @@ x = "Hi"
 print(x)
 a()
 b()</code></p>
+
+<p><strong>2</strong></p>
+<p><code>def mi_funcion():
+    msg = "denttro de mi_funcion"
+    print(msg)
+
+print("antes de llamar a mi_funcion")
+mi_funcion()
+print("despues de llamar a mi_funcion")</code></p>
