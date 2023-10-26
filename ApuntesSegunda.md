@@ -149,6 +149,7 @@ def <function_name>([<parameters>]):
 ```python
 <function_name>([<arguments>])
 ```
+<hr>
 
 <p><strong>->Argumentos posicionales (obligatorios)</strong></p>
 * La forma más sencilla de pasar argumentos a una función de Python es con argumentos posicionales u obligatorios.
