@@ -47,7 +47,7 @@ imprimir_datos("Un nombre", "argumento 1", "argumento 2", clave_1 = "valor 1", c
 <hr>
 <hr>
 <p><strong>Funciones</strong></p>
-<p><strong>### Introducción a las funciones</strong></p>
+<p><strong>->Introducción a las funciones</strong></p>
 
 * Prácticamente todos los lenguajes de programación actuales permiten una forma de crear funciones definidas por el usuario.
 * Cabe resaltar que no siempre se denominan funciones.
