@@ -9,7 +9,12 @@ función o método en Python. Cabe recalcar que se usan para que otros programad
 print(cubo.__doc__)</code></em>
 <p>El docstring es lo que está entre las comillas triples y con .__doc__ se llama a dicha documentación</p>
 <p><em><strong>REPL:</strong></em> Repeat Evual Print Loop. </p>    
-<p><em><strong>Lambda:</strong></em> </p>  
+<p><em><strong>Lambda:</strong></em> Las funciones lambda también llamadas <em>funciones anónimas</em> son funciones simpres 
+de una sola expresión que se pueden utilizar in situ. Cabe destacar que estas funciones no usan <em>return</em> y se limitan 
+a una sola sentencia. También no es recomendable abusar de ellas porque hacen que el código sea menos legible.</p>  
+<p><em><code>superficie = lambda alto, ancho: alto*ancho 
+resultado = superficie(5,7)
+print("La superficie es de: ",resultado)</code></em>
 <p><em><strong>Args y Kwargs:</strong></em> Pueden ser puras (tiene argumentos, entre otras cosas) e impuras (no tiene argumentos, entre otras cosas).</p>  
 <p><em><strong>Args:</strong></em> Cuando se quiere que una función acepte un número arbitrario de argumentos, se usan los "args".
 Los *args son un parámetro que se define como cualquier otro, pero con un asterisco delante del nombre. Python interpretará esto 
