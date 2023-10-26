@@ -72,3 +72,16 @@ imprimir_datos("Un nombre", "argumento 1", "argumento 2", clave_1 = "valor 1", c
   * len()
   * max()
   * min()
+<p>Ejemplo de código:</p>  
+<p><code>def a():
+    x = "Hola"
+    print(x)
+    
+def b():
+    x = "Hello"
+    print(x)
+
+x = "Hi"
+print(x)
+a()
+b()</code></p>
