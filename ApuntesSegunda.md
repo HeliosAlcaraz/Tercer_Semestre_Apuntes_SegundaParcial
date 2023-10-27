@@ -223,3 +223,14 @@ my_function(["a", "b", "c"])</code></p>
 
 <p><em><strong>Run: </strong></em></p>
 <p>['a', 'b', 'c', '???']</p>
+
+<p>...se se llama sin ningún argumento:</p>
+<p><code>#Si se llama sin ningún argumento
+print(my_function())
+print(my_function())
+print(my_function())</code></p>
+
+<p><em><strong>Run: </strong></em></p>
+<p>['???']</p>
+<p>['???', '???']</p>
+<p>['???', '???', '???']</p>
