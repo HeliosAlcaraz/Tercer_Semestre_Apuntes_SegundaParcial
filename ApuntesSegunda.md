@@ -210,3 +210,16 @@ productos()</code></p>
 
 <p><em><strong>Run: </strong></em></p>
 <p> 0 productos cuestan 0.0 pesos</p>
+
+<hr>
+
+<p><strong>->Valores de parámetros predeterminados mutables.</strong></p>
+
+<p>Ejemplo:</p>
+<p><code>def my_function(my_list=[]):
+    my_list.append('???')
+    return my_list
+my_function(["a", "b", "c"])</code></p>
+
+<p><em><strong>Run: </strong></em></p>
+<p>['a', 'b', 'c', '???']</p>
