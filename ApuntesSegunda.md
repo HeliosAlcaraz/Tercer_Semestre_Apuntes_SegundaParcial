@@ -315,3 +315,7 @@ print(x)</code></p>
 <p><em><strong>Run: </strong></em></p>
 <p>5</p>
 
+* Una función puede devolver cualquier tipo de objeto.
+* Ejemplo: diccionario.
+* Se puede devolver un fragmento de una cadena, retornar listas que se pueden <em>indizar</em> o dividir.
+* Si se especifican varias expresiones separadas por comas en una instrucción , se empaquetan y se devuelven como una tupla.
