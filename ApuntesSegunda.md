@@ -234,3 +234,84 @@ print(my_function())</code></p>
 <p>['???']</p>
 <p>['???', '???']</p>
 <p>['???', '???', '???']</p>
+
+<hr>
+
+<p><strong>->Retorno de Valores y uso de la palabra clave return.</strong></p>
+
+* Una instrucción *return* en una función de Python tiene dos propósitos:
+1. Al terminar la función devuelve el control de ejecución a partir de donde se llamó.
+2. Proporciona un mecanismo para regresar datos donde se llamó o asignó.
+
+<p><code>def f1():
+    print("Hola")
+    print("Mundo")
+    return
+
+f1()</code></p>
+
+<p><em><strong>Run: </strong></em></p>
+<p>Hola</p>
+<p>Mundo</p>
+
+* *return* no necesita estar al final de una función.
+* Pueden aparecer en cualquier parte del cuerpo de una función.
+* Puede aparecer incluso varias veces.
+
+<hr>
+
+<p><strong>->Funciones sin valor de retorno (None).</strong></p>
+
+* Puede usarse para la comprobación de errores.
+* Cuando no se da ningún valor de retorno, una función devuelve el valor especial <em>None</em>.
+* Lo mismo pasa si el cuerpo de la función no contiene alguna declaración.
+
+<p><code>def g():
+    pass
+print(g())</code></p>
+
+<p><em><strong>Run: </strong></em></p>
+<p>None</p>
+
+* <em>None</em> es falso cuando se evalúa de manera booleana.
+
+<p><code>def f():
+    return
+
+def g():
+    pass
+if f() or g():
+    print('yes')
+else:
+    print('no')</code></p>
+
+<p><em><strong>Run: </strong></em></p>
+<p>no</p>
+
+<p><code>def f():
+    return True
+
+def g():
+    pass
+if f() or g():
+    print('yes')
+else:
+    print('no')</code></p>
+
+<p><em><strong>Run: </strong></em></p>
+<p>yes</p>
+
+<hr>
+
+<p><strong>->Valor de retorno en funciones.</strong></p>
+
+<p><code>def double(x):
+    x *= 2
+    return x
+x = 5
+double(x)
+print(x)</code></p>
+
+<p><em><strong>Run: </strong></em></p>
+<p>5</p>
+
