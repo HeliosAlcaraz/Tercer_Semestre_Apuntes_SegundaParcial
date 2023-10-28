@@ -319,3 +319,34 @@ print(x)</code></p>
 * Ejemplo: diccionario.
 * Se puede devolver un fragmento de una cadena, retornar listas que se pueden <em>indizar</em> o dividir.
 * Si se especifican varias expresiones separadas por comas en una instrucción , se empaquetan y se devuelven como una tupla.
+
+<hr>
+
+<p><strong>->Parámetros variables ('*args' y '**kwargs').</strong></p>
+
+* En ocasiones, cuando se está definiendo una función, es posible que no sepa de antemano cuántos argumentos va a tomar.
+- Restricciones:
+* El número de argumentos aprobados debe coincidir con el número de parámetros declarados.
+* No funciona esta implementación para cualquier cantidad de valores distinta a tres
+
+<hr>
+
+<p><strong>->Empaquetado de argumentos tipo diccionario.</strong></p>
+
+* El doble asterisco (**) se puede usar con parámetros de función y argumentos de Python para especificar el empaquetado y desempaquetado de diccionarios.
+* Indica que se espera que los argumentos correspondientes sean pares key=value
+* Se empaquetan en un diccionario:
+
+<p><code>def f(**kwargs):
+    print(kwargs)
+    print(type(kwargs))
+    for key, val in kwargs.items():
+            print(key, '->', val)
+f(name_1 = "Hugo", name_2 = "Paco", name_3 = "Luis")</code></p>
+
+<p><em><strong>El resultado sería: </strong></em></p>
+<p>{'name_1': 'Hugo', 'name_2': 'Paco', 'name_3': 'Luis'}</p>
+<p><class 'dict'></p>
+<p>name_1 -> Hugo</p>
+<p>name_2 -> Paco</p>
+<p>name_3 -> Luis</p>
