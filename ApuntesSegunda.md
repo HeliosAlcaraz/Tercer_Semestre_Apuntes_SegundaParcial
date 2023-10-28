@@ -44,6 +44,8 @@ los *args y, al final, los **kwargs.</strong></em></p>
     for clave, valor in diccionario.items():
         print(" - ", clave, ": ", valor)    
 imprimir_datos("Un nombre", "argumento 1", "argumento 2", clave_1 = "valor 1", clave_2 = "valor 2")</code></em></p>
+<p><em><strong>Recursión:</strong></em> Es cuando una función se llama a sí misma. Se debe de tener cuidado de que
+el ciclo termine en algún momento para evitar el desbordamiento de la memorira del ordenador.</p>  
 <hr>
 <hr>
 <p><strong>Funciones</strong></p>
